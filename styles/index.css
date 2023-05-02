@@ -4,17 +4,23 @@
     background-color: #e4ecb2;
    
 }
+h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;    
+}
 
 header{
     padding:1rem 1rem;
     position: sticky;
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     align-items: center;
 }
 
  header ul{
-    padding:10rem 2 rem;
+    /*padding:10rem 2 rem;*/
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -34,17 +40,9 @@ header a:hover{
 }
 
 
+
 main{
     padding: 2rem;
-}
-
-h1{
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    
-    
-    /*font-style:;*/
 }
 
 h2{
