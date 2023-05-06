@@ -33,14 +33,16 @@ header h1{
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     text-transform: uppercase;  
-    font-size: 4rem;       
+    font-size: 3rem; 
+    
 }
 
 header a{
     text-transform: uppercase;
     text-decoration: none;
-    color: #000;
+    color: rgb(63,63,5);
     font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;  
     font-weight: bold;
 }
 
@@ -61,6 +63,12 @@ main{
     font-size: 3rem; 
 }*/
 
+#logoCamelia{
+    width: 30%;
+    object-fit: contain;
+    padding-top: 2%;
+    padding-left: 10%;
+}
 h3{
     padding-bottom: 1rem;
     font-family: 'Quicksand', sans-serif;
@@ -78,7 +86,7 @@ h3{
     padding-top: 1rem;
     padding-bottom: 0rem;
     font-family: 'Quicksand', sans-serif;
-    font-size: 2rem; 
+    font-size: 3rem; 
     font-weight: 500;
     text-transform: uppercase;  
 }
@@ -95,9 +103,6 @@ p{
 
 
 
-
-
-
 footer section{
     margin-top: 1rem;
     }
@@ -105,6 +110,7 @@ footer h4{
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
+    font-weight: bold;
 }
 footer ul{
     list-style: none;
@@ -114,7 +120,12 @@ footer a{
     text-decoration:none;
     color: rgb(63, 63, 5);
     /*color:#000;*/
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;  
+    text-transform: uppercase;  
+    font-weight: bold;
 }
+
 
 #footer_info{
     min-height: 5rem;
