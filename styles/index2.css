@@ -18,24 +18,35 @@ header{
     justify-content: space-between;
     align-items: center;   
 }
+#logoCamelia{
+    display: flex;
+    width: 30%;
+    height:auto;
+    /*object-fit: contain;*/
+    /*padding-top: 1 rem;*/
+    padding-left: 1 rem;
+   
+
+
+}
+header h1{   
+    padding-left: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    /*font-weight: 500;*/
+    text-transform: uppercase;  
+    font-size: 2rem; 
+
+}    
 
 header ul{
     /*padding: 2rem 1rem;*/ 
-    font-size: 1rem;;   
+    /*font-size: 1rem;*/  
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem 1rem
 }
 
-header h1{   
-    padding-left: 1rem;
-    font-family: 'Quicksand', sans-serif;
-    /*font-weight: 500;*/
-    text-transform: uppercase;  
-    font-size: 3rem; 
-    
-}
 
 header a{
     text-transform: uppercase;
@@ -51,14 +62,7 @@ header a:hover{
     
 
 }
-#logoCamelia{
-    width: 30%;
-    height:auto;
-    object-fit: contain;
-    padding-top: 2%;
-    padding-left: 10%;
 
-}
 
 
 main{
@@ -170,20 +174,12 @@ h3{
     height:auto;
 }
 
-
-
- 
-
-
 p{
     padding: 0rem 1rem;
     font-family: 'Quicksand', sans-serif;
     font-size: 1rem;
     font-weight: 500;
 }
-
-
-
 
 
 
