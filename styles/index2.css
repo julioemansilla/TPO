@@ -31,7 +31,7 @@ header ul{
 header h1{   
     padding-left: 1rem;
     font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
+    /*font-weight: 500;*/
     text-transform: uppercase;  
     font-size: 3rem; 
     
@@ -49,13 +49,85 @@ header a{
 header a:hover{
     color: #817979;
     
+
 }
+#logoCamelia{
+    width: 30%;
+    height:auto;
+    object-fit: contain;
+    padding-top: 2%;
+    padding-left: 10%;
+
+}
+
 
 main{
-    padding: 2rem;
+    padding: 1rem;
 }
 
-h2{
+#sec_title{
+    padding: 1rem;
+    color: rgb(63, 63, 5);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem; 
+    font-weight: 500;
+    text-transform: uppercase;  
+    text-align: center; 
+} 
+
+
+#flex-conteiner1{
+    border: solid blue ;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    height: auto;
+    align-content: center;
+    row-gap: 2rem;
+    column-gap: 1rem;
+}
+
+#flex-conteiner1 h2{  
+    padding:1rem;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem; 
+    font-weight: 500;
+    
+
+
+}
+.flex-item1{
+    padding: 1rem;
+    border: 2px solid rgb(63, 63, 5);
+    border-radius: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    width: 90%;
+
+    
+}
+
+#flex-conteiner1 article button{
+    /*font-family: 'Quicksand', sans-serif;*/
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    color:  rgb(63, 63, 5);
+    /*background-color: white;*/
+   
+}
+#flex-conteiner1 article button a{
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    color:  rgb(63, 63, 5);
+    color: black;
+}
+
+/*h2{
     padding-bottom: 1rem;
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
@@ -63,41 +135,45 @@ h2{
     font-size: 1rem; 
 }
 
-#logoCamelia{
-    width: 100%;
-    height:auto;
-    object-fit: contain;
-    padding-top: 2%;
-    padding-left: 10%;
-}
+
 h3{
     padding-bottom: 1rem;
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
-}
+}*/
+
+
+
 
 #campos_de_te{
     /*object-fit: cover;*/
-    object-fit: contain;
-    width:100%;
-    height:100%;
+    /*object-fit: contain;*/
+    display: block;
+    width:70%;
+    height:auto;
+    margin: auto;
+    
+    
 }
-#tea-infusor{
-    object-fit: contain;
-    width: 20%;
-    height:20%;
+#te_hebras{
+    /*object-fit: contain;*/
+    padding-bottom: 1rem;
+    display: block;
+    width: 100%;
+    height:auto;
+}
+#te_infusor{
+    /*object-fit: contain;*/
+    padding-bottom: 1rem;
+    display: block;
+    width: 100%;
+    height:auto;
 }
 
 
 
-#main_title{
-    padding-top: 1rem;
-    padding-bottom: 0rem;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 3rem; 
-    font-weight: 500;
-    text-transform: uppercase;  
-}
+ 
+
 
 p{
     padding: 0rem 1rem;
