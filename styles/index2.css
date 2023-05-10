@@ -13,39 +13,48 @@ header{
     padding:1rem 1rem;
     background-color: rgba(228, 236, 178, 0.75);
     top: 0;  
-    position: sticky;    
+    /*position: sticky; */   
     display: flex;
-    justify-content: space-between;
+    height: auto;
+    justify-content: space-around;
     align-items: center;   
 }
-#logoCamellia{
+
+
+#logo{
     display: flex;
-    width: 20%;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#logoCamellia{
+    width: 40%;
     height:auto;
     /*object-fit: contain;*/
-    /*padding-top: 1 rem;*/
-    padding-left: 1rem;
-   
-
-
+    /*padding-top: 1 rem;
+    padding-left: 1rem;*/
 }
+
 header h1{   
-    padding-left: 1rem;
+    padding-top: 1rem;
     font-family: 'Quicksand', sans-serif;
-    /*font-weight: 500;*/
+    text-align: center;
+    /*font-weight: 500;
     text-transform: uppercase;  
     font-size: 2rem; 
-    width: 30%;
-
-}    
+    width: 30%;*/
+}
+   
 
 header ul{
-    /*padding: 2rem 1rem;*/ 
-    /*font-size: 1rem;*/  
+    padding: 2rem 1rem; 
+    font-size: 1rem; 
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem 1rem
+    gap: 1rem 1rem;
+    
 }
 
 
@@ -63,7 +72,6 @@ header a:hover{
     
 
 }
-
 
 
 main{
@@ -114,6 +122,7 @@ main{
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     width: 90%;
+    
     
 
     
@@ -167,17 +176,17 @@ h3{
 }
 
 #te_hebras{
-    object-fit: contain;
+    /*object-fit: contain;*/
     padding-bottom: 1rem;
-    display: flex;
-    width: 100%;
+    display: block;
+    width: 50%;
     height:auto;
 }
 #te_infusor{
-    object-fit: contain;
+    /*object-fit: contain;*/
     padding-bottom: 1rem;
     display: flex;
-    width: 100%;
+    width: 50%;
     height:auto;
 }
 
@@ -195,12 +204,13 @@ footer section{
     }
 footer h4{
     font-family: 'Quicksand', sans-serif;
-    font-weight: 500;
+    font-weight: 500 bold;
     text-transform: uppercase;
-    font-weight: bold;
+    
 }
 footer ul{
     list-style: none;
+    
 }
 
 footer a{
@@ -229,7 +239,7 @@ footer a{
 
 .fa-brands{
      /*color: #000;*/
-     color: rgb(63, 63, 5);
+    color: rgb(63, 63, 5);
     font-size: 1.25rem;
 }
 
@@ -242,3 +252,16 @@ footer a{
     text-align: center;
     padding: 1rem;
 }
+/*
+@media screen and (min-widht:550px){
+    header{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .logo{
+        flex-direction: row;
+    }
+
+
+    }
+*/
