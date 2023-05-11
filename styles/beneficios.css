@@ -68,50 +68,6 @@ img{
 #flex-container1 article p{ /*ELIMINAR AL FINALIZAR*/
     border: 0px solid red;
 }
-
-footer section{
-    margin-top: 1rem;
-    }
-footer h4{
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-footer ul{
-    list-style: none;
-}
-
-footer a{
-    text-decoration:none;
-    color: rgb(63, 63, 5);
-    /*color:#000;*/
-}
-
-#footer_info{
-    min-height: 5rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;    
-}
-
-.fa-solid{
-    /*color: #000;*/
-    color: rgb(63, 63, 5);
-    font-size: 1.25rem;
-}
-
-.fa-brands{
-     /*color: #000;*/
-     color: rgb(63, 63, 5);
-    font-size: 1.25rem;
-}
-
-.fa-brands:hover{
-    color: #fafafa;
-}
-
-#copyright_section{
-    color: #292020;
+#p_copyright_section{
     text-align: center;
-    padding: 1rem;
 }
