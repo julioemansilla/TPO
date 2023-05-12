@@ -70,10 +70,31 @@ padding: .5rem;
     display: flex;
     align-items: center;    
 }
+#experiencia{
+padding: 2rem;;
+}
+
+button{
+    font-size:10px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+    /*background:#193048;*/
+    background:rgb(63,63,5);
+    border:0px;
+    width:80px;
+    height:19px;
+}
+
+button:hover{
+    background:#d2d9e0;
+    color:#193048;
+}
 
 footer section{
     margin-top: 1rem;
     }
+
 footer h4{
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
