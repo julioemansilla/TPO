@@ -21,9 +21,10 @@ img{
 
 
 
+
 header{    
     padding:1rem 1rem;
-    background-color: rgba(228, 236, 178, 0.75);
+    background-color:rgb(131, 199, 54);
     top: 0;  
     /*position: sticky; */   
     display: flex;
@@ -82,7 +83,7 @@ header a{
 }
 
 header a:hover{
-    color: #817979;
+    color: white;
     
 
 }
@@ -213,11 +214,15 @@ p{
 
         
 
-
+footer{
+    background-color:rgb(131, 199, 54);
+    padding: 1rem;
+}
 
 footer section{
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     }
+
 footer h4{
     font-family: 'Quicksand', sans-serif;
     font-weight: 500 bold;
@@ -232,7 +237,6 @@ footer ul{
 footer a{
     text-decoration:none;
     color: rgb(63, 63, 5);
-    /*color:#000;*/
     font-family: 'Quicksand', sans-serif;
     font-size: 1rem;  
     text-transform: uppercase;  
@@ -247,6 +251,10 @@ footer a{
     justify-content: space-around;  
     
 }
+#footer_nav a:hover{
+    color: white;
+}
+
 
 .contacto a{
     text-transform: lowercase;
@@ -256,13 +264,11 @@ footer a{
 }
 
 .fa-solid{
-    /*color: #000;*/
     color: rgb(63, 63, 5);
     font-size: 1.25rem;
 }
 
 .fa-brands{
-     /*color: #000;*/
     color: rgb(63, 63, 5);
     font-size: 1.25rem;
 }
