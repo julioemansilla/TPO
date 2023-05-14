@@ -233,6 +233,7 @@ footer a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around; 
+    
 
   
 }
@@ -245,9 +246,14 @@ footer li{
     padding: 0.25rem;
 }
 
-.contacto a{
+#contacto a{
     text-transform: lowercase;
 }
+
+#redes_social{
+    margin-left: -4rem;
+}
+
 .redes a{
     text-transform:capitalize;
     
