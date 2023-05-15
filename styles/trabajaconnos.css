@@ -70,6 +70,10 @@ padding: .5rem;
     display: flex;
     align-items: center;    
 }
+.msg_alert{
+    color:red;
+}
+
 #experiencia{
 padding: 2rem;;
 }
