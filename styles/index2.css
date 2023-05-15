@@ -80,8 +80,8 @@ header a:hover{
 }
 
 
-#main_title{
-    margin-top: 1rem;
+.main_title{
+    margin-top: 2rem;
     padding: 1rem;
     color: rgb(63, 63, 5);
     font-family: 'Quicksand', sans-serif;
@@ -98,14 +98,50 @@ header a:hover{
     width:60%;
     height:auto;
     margin: auto;
-    
+    /*position: relative;
+    top: 1rem;*/
+    padding-top: 1rem;
 } 
-/*    
-#section_campo h2{
-    
-}*/
+#campos_text {
+    padding: 1rem;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3vw; 
+    /*font-weight: 500;*/
+    text-transform: uppercase; 
+    text-align: center; 
+    position: relative;
+    bottom: 5rem;
+
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 200%;
+    }
+
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
 
 
+#main_title2{
+    /*margin-top: 0rem;*/
+    /*paddin-top: 1rem;*/
+    padding-bottom: 1rem;
+    color: rgb(63, 63, 5);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem; 
+    font-weight: 500;
+    text-transform: uppercase;  
+    text-align: center; 
+
+}
 
 img{
     object-fit:contain ;
@@ -177,19 +213,20 @@ p{
     flex-direction: column;
     justify-content: center;
     
+    
 }
 .flex-item2{
     margin: auto;
     text-align: center;
     align-items: center;
-    width: 90%;
-  
+    width: 90%;   
       
 }
 
 .flex-item2 iframe{
     max-width: 90%;
-   
+    margin-bottom: 2rem;
+    padding: 0.5rem;
 }
 
         
