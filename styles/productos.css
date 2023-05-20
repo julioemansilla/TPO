@@ -94,7 +94,7 @@ img{
 
 article{
     padding: 1rem;
-    border: 5px solid rgb(63, 63, 5);
+    border: 2px solid rgb(63, 63, 5);
     border-radius: 1rem;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
@@ -104,7 +104,7 @@ article{
 }
 
 article:hover{
-    transform: scale(1.2, 1.2);
+    transform: scale(1.1, 1.1);
 }
 
 article a{
