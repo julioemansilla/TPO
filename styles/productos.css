@@ -8,30 +8,31 @@ html{
 }
 
 header{
-    padding:1rem 1rem;
-    background-color: rgba(228, 236, 178, 0.75);
-    top: 0; 
+    padding:1rem;
+    background-color:rgb(131, 199, 54);
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     height: auto;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
 }
 
-#logo{
+#section_logo{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 
 #logoCamellia{
-    width: 40%;
+    width: 15%;
     height:auto;
+    min-width: 150px;
 }
 
 header ul{
-    padding: 2rem 1rem;
-    font-size: 1rem;; 
+    padding-top: 1rem;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -39,9 +40,11 @@ header ul{
 }
 
 header h1{   
-    padding-left: 1rem;
+    margin-left: 1rem;  
     font-family: 'Quicksand', sans-serif;
     text-align: center;
+    text-transform: uppercase;  
+    font-size: 5vh;
 }
 
 header a{
@@ -54,7 +57,7 @@ header a{
 }
 
 header a:hover{
-    color: #817979;
+    color: white;
 }
 
 main{
@@ -65,7 +68,7 @@ h1,h3,h4{
     color: rgb(63,63,5);
 }
 
-#productos{
+#productos, #accesorios{
     text-align: center; 
     font-size: 1.5rem; 
     text-transform: uppercase;
@@ -82,6 +85,13 @@ h1,h3,h4{
     font-weight: 100;
     
 }
+
+img{
+    object-fit:contain ;
+    width:100%;
+   
+}
+
 article{
     padding: 1rem;
     border: 5px solid rgb(63, 63, 5);
@@ -107,18 +117,27 @@ article a{
     
 }
 
+footer{
+    background-color:rgb(131, 199, 54);    
+}
+
 footer section{
-    margin-top: 1rem;
+    margin: 1rem;
 }
 
 footer h4{
+    margin: 0.5rem;
     font-family: 'Quicksand', sans-serif;
-    font-weight: 500 bold;
     text-transform: uppercase;
+    font-size: 1.25rem;
 }
 
 footer ul{
     list-style: none;
+}
+
+footer li{
+    padding: 0.25rem;
 }
 
 footer a{
@@ -130,26 +149,25 @@ footer a{
     font-weight: bold;
 }
 
-img {
-	object-fit:contain ;
-    width:100%;
-}
-
-h2 {
-	margin-top: 10px;
-	font-size: 1.5em;
-}
-
 #footer_info{
-    min-height: 5rem;
+    min-height: 10rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.contacto a{
+#footer_nav a:hover{
+    color: white;
+}
+
+#contacto a{
     text-transform: lowercase;
 }
+
+#redes_social{
+    margin-left: -4rem;
+}
+
 .redes a{
     text-transform:capitalize;
 }
@@ -172,4 +190,8 @@ h2 {
     color: #292020;
     text-align: center;
     padding: 1rem;
+}
+
+#copyright_section p{
+    font-size: 1rem;
 }
