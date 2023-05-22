@@ -238,7 +238,7 @@ footer{
 }
 
 footer section{
-    margin: 1rem;
+    margin-top: 1rem;
 }
 
 footer h4{
@@ -322,5 +322,22 @@ footer li{
     font-size: 1rem;
 }
 
+@media screen and (max-width:800px){
+
+    html{background-color: rgb(168, 238, 95)};
+       
+}
+
+@media screen and (max-width:550px){
+    html{background-color: rgb(181, 238, 63)};
+       
+}
+
+@media screen and (max-width:360px){
+    html{background-color: rgb(186, 238, 82)};
+     
+   
+        
+}
 
 
