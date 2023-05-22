@@ -79,124 +79,14 @@ header a:hover{
 
 }
 
-
-.main_title{
-    margin-top: 2rem;
-    padding: 1rem;
-    color: rgb(63, 63, 5);
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1.75rem; 
-    font-weight: 500;
-    text-transform: uppercase;  
-    text-align: center; 
-} 
-
-
-#campos_de_te{
-
+#enconstruccion{
     display: block;
-    width:60%;
-    height:auto;
+    width: 20%;
+    height: auto;
     margin: auto;
-    /*position: relative;
-    top: 1rem;*/
     padding-top: 1rem;
-} 
-#campos_text {
-    padding: 1rem;
-    color: white;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 3vw; 
-    /*font-weight: 500;*/
-    text-transform: uppercase; 
-    text-align: center; 
-    position: relative;
-    bottom: 5rem;
-
-    animation-duration: 3s;
-    animation-name: slidein;
-}
-
-@keyframes slidein{
-    from{
-        margin-left: 100%;
-        width: 200%;
-    }
-
-    to{
-        margin-left: 0%;
-        width: 100%;
-    }
-}
-
-
-#main_title2{
-    /*margin-top: 0rem;*/
-    /*paddin-top: 1rem;*/
-    padding-bottom: 1rem;
-    color: rgb(63, 63, 5);
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1.5rem; 
-    font-weight: 500;
-    text-transform: uppercase;  
-    text-align: center; 
-
-}
-
-img{
-    object-fit:contain ;
-    width:100%;
    
 }
-
-#flex-conteiner1{
-    display:flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
-    align-content: space-around;
-   
-}
-
-#flex-conteiner1 h2{  
-    padding:1rem;
-    font-family: 'Quicksand', sans-serif;
-    text-transform: uppercase;
-    font-size: 1.5rem; 
-
-    
-}
-.flex-item1{
-    padding: 1rem;
-    border: 2px solid rgb(63, 63, 5);
-    border-radius: 1rem;
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    width: 60%;
-    max-width: 30rem;
-    margin-top: 2rem;
-
-    
-}
-
-#flex-conteiner1 article button{
-    font-size: 1rem;
-    padding: 1rem;
-    border-radius: 1rem;
-    background-color: beige;
-    border-style: solid;
-    margin-top: 1rem;
-   
-}
-
-#flex-conteiner1 article button a{
-    text-decoration: none;
-    font-family: 'Quicksand', sans-serif;
-    color:  rgb(63, 63, 5);
-    font-weight: bold;
-    
-}
-
 
 
 p{
@@ -204,32 +94,8 @@ p{
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.25rem;
-    
-    
-
-}
-#flex-conteiner2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    
-}
-.flex-item2{
-    margin: auto;
-    text-align: center;
-    align-items: center;
-    width: 90%;   
-      
 }
 
-.flex-item2 iframe{
-    max-width: 90%;
-    margin-bottom: 2rem;
-    padding: 0.5rem;
-}
-
-        
 
 footer{
     background-color:rgb(131, 199, 54);
