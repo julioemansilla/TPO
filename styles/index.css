@@ -50,14 +50,14 @@ header h1{
     font-size: 5vh; 
     
 }
-   
+
 header ul{
     padding-top: 1rem;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-   
+
     
 }
 
